@@ -23,8 +23,8 @@ public class ExerciseIntroduction {
      * @return "The key to efficient learning is practice!"
      */
     public String getWelcomeMessage() {
-        // todo: implement a method and return a message according to javadoc
-        throw new ExerciseNotCompletedException(); 
+        return "The key to efficient learning is practice!";
+//        throw new ExerciseNotCompletedException();
     }
 
     /**
@@ -40,6 +40,7 @@ public class ExerciseIntroduction {
      */
     public String encodeMessage(String message) {
         // todo: switch to branch "completed" in order to see how it should be implemented
-        throw new ExerciseNotCompletedException();
+        return message+" completed";
+//        throw new ExerciseNotCompletedException();
     }
 }
